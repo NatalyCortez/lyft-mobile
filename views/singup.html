@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+maximum-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../vendors/css/materialize.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title></title>
+  </head>
+  <body class="vh100">
+    <div class="container container-flex ">
+      <div class="row">
+        <div class="col s2 margin-5">  
+          <a id ="next-btn" class="waves-effect waves-light btn pink-btn"  href="home.html">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="col s9 offset-s1">
+          <h3>Sign Up</h3>
+        </div>
+        <div class="col s12 container-flex">
+          <h5 class="item-flex">Join now for free ride credit</h5>     
+        </div>
+        <div class="col s12">
+          <hr>
+        </div>
+        <form>
+          <div class="row">
+            <div class="col s12 margin-15">
+              <div class="input-field col s4">
+                <select class="icons" id="country">
+                  <option value="per" data-icon="../assets/images/peru.png" class="center circle"><img src="../assets/images/peru.ico" alt="">Perú</option>
+                  <option value="col" data-icon="../assets/images/colombia.png" class="circle">Colombia</option>
+                  <option value="mex" data-icon="../assets/images/mexico.png" class="circle">México</option>
+                </select>
+              </div>
+              <div class="input-field col s8">
+                  <input id="telephone" type="tel" class="validate" value="+51">
+                  <label for="telephone">Telephone</label>
+              </div>
+            </div>
+          </div>
+          <div class="container container-flex">
+            <div class="row">
+              <div class="cols12">
+                <h6 class="item-flex margin-15">We'll send a text to verify your phone</h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="cols12">
+                <a class="item-flex waves-effect waves-light btn-large pink-btn disabled" href="../views/verifyphone.html" type="submit">NEXT</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div> 
+    <!-- Linkeando archivos -->
+    <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../vendors/js/materialize.min.js"></script>
+    <script src="../js/singup.js"></script>
+  </body>
+</html>

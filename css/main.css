@@ -10,11 +10,14 @@
 .vh20 {
 	height: 20vh;
 }
+.vh18 {
+	height: 18vh;
+}
 .vh10 {
 	height: 10vh;
 }
-.vh40 {
-	height: 40vh;
+.vh36 {
+	height: 36vh;
 }
 .container-flex {
 	display: flex;
@@ -34,6 +37,9 @@
 }
 .margin-15 {
 	margin-top: 15vh;
+}
+.margin-5 {
+	margin-top: 5vh;
 }
 .gradient {
   background: linear-gradient( to bottom right ,rgb(70, 3, 82) 25%, rgb(219, 21, 160));
@@ -62,3 +68,7 @@
 	font-size: 1rem;
 	font-weight: 700;
 }
+/*singup.html*/
+.pink-btn {
+	background-color: #ec407a;
+};
